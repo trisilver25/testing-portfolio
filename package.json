@@ -1,0 +1,19 @@
+{
+  "name": "testing-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.8.1"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.43.0"
+  }
+}
