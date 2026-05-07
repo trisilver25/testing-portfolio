@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js --format json:reports/reports.json",
-    "posttest": "node generate-report.js"
+    "posttest": "node generate-report.js && node run-report.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "multiple-cucumber-html-reporter": "^3.10.0",
+    "open": "^11.0.0",
     "selenium-webdriver": "^4.43.0"
   }
 }

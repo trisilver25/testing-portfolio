@@ -10,8 +10,8 @@ report.generate({
     },
     device: "Local test machine",
     platform: {
-      name: "Windows",
-      version: "11",
+      name: "MacOS",
+      version: "26.4.1",
     },
   },
   customData: {
@@ -22,3 +22,5 @@ report.generate({
     ],
   },
 });
+
+
