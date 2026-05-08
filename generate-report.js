@@ -10,7 +10,7 @@ report.generate({
     },
     device: "Local test machine",
     platform: {
-      name: "MacOS",
+      name: "osx",
       version: "26.4.1",
     },
   },
