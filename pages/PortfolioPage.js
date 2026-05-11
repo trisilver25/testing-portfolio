@@ -9,6 +9,7 @@ class PortfolioPage {
         // Attributes
         this.NavButtonByName = (buttonName) => By.linkText(buttonName);
         this.SectionHeadingByName = (section) => By.xpath(`//*[self::h1 or self::h2][contains(normalize-space(), "${section}")]`);
+        this.ExternalLinkButton = (link) => By.linkText(link);
     }
 
     // Methods
@@ -18,6 +19,11 @@ class PortfolioPage {
 
     async clickNavButton(buttonName) {
         const locator = this.NavButtonByName(buttonName);
+        await this.driver.findElement(locator).click();
+    }
+
+    async clickLinkButton(link) {
+        const locator = this.ExternalLinkButton(link);
         await this.driver.findElement(locator).click();
     }
 

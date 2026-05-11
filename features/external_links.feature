@@ -11,3 +11,4 @@ Feature: Do all the external links function as expected?
       | https://world-map-tsmith-netlify.app/map     |
       | https://capstone-frontend-4y9n.onrender.com/ |
       | https://www.linkedin.com/in/tristin-h-smith/ |
+      | https://github.com/trisilver25               |
